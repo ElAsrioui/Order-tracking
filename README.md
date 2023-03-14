@@ -29,7 +29,7 @@ mvn spring-boot:run
 ## H2 Database
 After running the project you can access to orderdb in : 
 
-password: admin
+Password: admin
 
 [http://localhost:8080/h2-console](http://localhost:8080/h2-console)
 
