@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="UTF-8">
+    <title>Order Status</title>
+</head>
+<body>
+<div> Hi <b th:text="${request.customerLastname}"></b>,</div>
+<br/>
+<p>Thank you for using our application.</p>
+<br/>
+<p>
+    Your order #<b th:text="${request.orderId}"></b> has been updated to <b th:text="${request.newStatus}"></b>.
+</p>
+<br/>
+
+<p> Best regards,</p>
+</body>
+</html>
