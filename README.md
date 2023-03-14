@@ -57,6 +57,12 @@ In [POSTMAN]() you click on Import button and click on Upload Files button, then
 
 ![Update order status](UpdateOrderStatus.PNG)
 
+After updating order status you will receive an email in fakeSMTP server :
+
+![SMTP server](FakeSMTP_Server.PNG)
+
+![Order status email](OrderStatusEmail.PNG)
+
 ## Actuator 
 
 After running the project you can access to the Actuator in : [http://localhost:8080/actuator](http://localhost:8080/actuator)
